@@ -303,7 +303,6 @@ C. Stream the transactions data into Amazon Kinesis Data Streams. Use AWS Lambda
 
 2. Data Transformation: You can cleanse and eliminate sensitive data from transactions before storing them in Amazon DynamoDB by utilizing AWS Lambda with Kinesis Data Streams. This takes care of the requirement to handle sensitive data with care.
 3. Scalability: DynamoDB and Amazon Kinesis are both extremely scalable technologies that can manage enormous data volumes and adjust to the workload.
-To host a static website on Amazon S3, you would first need to create an S3 bucket. Then, you would need to upload the website files to the bucket. Once the files are uploaded, you can configure the bucket to serve as a website.
 -------------------------------------------------------------------------------------------------------------------------
 
 34] A company hosts its multi-tier applications on AWS. For compliance, governance, auditing, and security, the company must track configuration changes on its AWS resources and record a history of API calls made to these resources.
